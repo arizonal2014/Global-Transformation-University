@@ -7829,12 +7829,13 @@ blockquote.no-margin {
 
 .surjithctly-icon-box h5 {
   text-transform: uppercase;
-  width: auto;
+  /* width: auto; */
 }
 
 .surjithctly-icon-box p {
   padding-top: 10px;
   margin-bottom: 35px;
+  width: ;
 }
 
 .font50 {
