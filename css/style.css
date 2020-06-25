@@ -7823,8 +7823,8 @@ blockquote.no-margin {
 .surjithctly-icon-box h4,
 .surjithctly-icon-box h5,
 .surjithctly-icon-box h6 {
-  display: inline-block !important;
-  vertical-align: middle;
+  /* display: inline-block !important; */
+  /* vertical-align: middle; */
 }
 
 .surjithctly-icon-box h5 {
@@ -9553,7 +9553,7 @@ home-business-info .container {
   left: 0;
   width: 50%;
   height: 100%;
-  background-image: url("../images/other/home14-section1.jpg") !important;
+  background-image: url("../images/other/home-section-gtu1.jpg") !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -9889,7 +9889,7 @@ home-business-info .container {
 .shop-cat {
   padding-top: 64px !important;
   padding-bottom: 60px !important;
-  background-image: url("../images/other/home10-section03.jpg") !important;
+  background-image: url("../images/other/home-section-gtu1.jpg") !important;
   background-size: cover;
 }
 
