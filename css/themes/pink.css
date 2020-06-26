@@ -19,6 +19,10 @@ Secondary Color: #9923f1
   object-fit: cover;
 }
 
+#custom-black p {
+  color: black;
+}
+
 #logo img {
   width: 180px;
   height: 60px;
@@ -32,7 +36,7 @@ body {
 }
 
 p {
-  color: #e7dada;
+  color: #e9e1e1;
 }
 
 h1,
