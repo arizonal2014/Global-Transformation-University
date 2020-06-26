@@ -19,6 +19,11 @@ Secondary Color: #9923f1
   object-fit: cover;
 }
 
+#logo img {
+  width: 180px;
+  height: 60px;
+}
+
 #princings-section .col-md-4 {
 }
 
@@ -27,7 +32,7 @@ body {
 }
 
 p {
-  color: #999999;
+  color: #e7dada;
 }
 
 h1,
@@ -388,7 +393,6 @@ input {
     ========================================================================== */
 
 #foot-background {
-  color: red;
   background-position: center;
   background-repeat: no-repeat;
 
