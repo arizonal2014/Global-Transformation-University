@@ -1659,7 +1659,7 @@ footer.footer2 {
 .copyright {
   overflow: hidden;
   line-height: 1;
-  background-color: #333;
+  background-color: #E91E63;
   letter-spacing: 0.08em;
   font-size: 13px;
   color: #666;
@@ -1674,7 +1674,7 @@ footer.footer2 {
 .copyright .right {
   padding-top: 30px;
   padding-bottom: 30px;
-  text-align: right;
+  text-align: c;
 }
 
 .copyright .center:first-child {
@@ -3350,7 +3350,7 @@ footer.footer2 {
   margin-bottom: 30px;
   padding-top: 12px !important;
   padding-bottom: 12px !important;
-  background-color: #2db200 !important;
+  background-color: #ff1493 !important;
 }
 
 .item-price-recommended h5 i {
@@ -3375,6 +3375,12 @@ footer.footer2 {
   color: #fff;
   background: #2db200;
   border-color: #2db200;
+}
+
+.excutive-pricing .bttn:hover {
+  color: #fff;
+  background: #2db301;
+  border-color: white;
 }
 
 .pricing-wrap-bg {

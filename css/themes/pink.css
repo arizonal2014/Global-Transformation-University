@@ -10,6 +10,18 @@ Secondary Color: #9923f1
     1. GLOBAL STYLES
     ========================================================================== */
 
+/* Custom Style */
+#price-background-image {
+  background: url(../../images/other/pricing-image.jpg);
+  background-size: 1920px  950px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+#princings-section .col-md-4 {
+}
+
 body {
   color: #999999;
 }
@@ -375,6 +387,14 @@ input {
     5. FOOTER
     ========================================================================== */
 
+#foot-background {
+  color: red;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-origin: content-box;
+}
+
 footer {
   background-color: #222;
 }
@@ -482,6 +502,18 @@ footer.footer2 {
 .bttn {
   border: 2px solid #ff1493;
   color: #ff1493;
+}
+
+.bttn-custom-color {
+  background-color: #22bbde;
+  border: 2px solid #22bbde;
+  color: white;
+}
+
+.bttn-excutive {
+  background-color: #ff1493;
+  border: 2px solid #ff1493;
+  color: white;
 }
 
 .bttn:hover {
@@ -685,8 +717,16 @@ footer.footer2 {
     11. STATS COUNTER
     ========================================================================== */
 
+#count-bg {
+  background: url(../../images/other/count-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  background-size: cover;
+}
+
 .counter-item h3 {
-  color: #9923f1;
+  color: #ff1493;
 }
 
 .counter-item h5 {
@@ -1079,7 +1119,7 @@ footer.footer2 {
 
 .item-price-table h5 {
   color: #fff;
-  background-color: #9923f1;
+  background-color: #22bbde;
 }
 
 .item-price-table .sep1 {
@@ -1087,7 +1127,8 @@ footer.footer2 {
 }
 
 .item-price-recommended h5 {
-  background-color: #2db200 !important;
+  background-color: #ffc90b !important;
+  color: #000;
 }
 
 .item-price-recommended h1 {
@@ -1095,14 +1136,16 @@ footer.footer2 {
 }
 
 .item-price-recommended .bttn {
-  color: #2db200;
-  border-color: #2db200;
+  background-color: #ffc90b;
+  color: white;
+  border-color: white;
 }
 
-.item-price-recommended .bttn:hover {
+/* Excutive pricing customised */
+
+.excutive-pricing h5 {
   color: #fff;
-  background: #2db200;
-  border-color: #2db200;
+  background-color: #ff1493;
 }
 
 /* ==========================================================================
@@ -2134,7 +2177,7 @@ a.remove {
 }
 
 .copyright {
-  color: #666;
+  color: white;
 }
 
 .footer7 {
@@ -2232,10 +2275,13 @@ a.remove {
   background-color: rgba(255, 255, 255, 1) !important;
 }
 
-.quote-carousel-custom.skin-white {
-  background: #fff !important;
+#testimonial-background {
+  background: url(../../images/other/test-testimonial.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 700px;
+  background-attachment: fixed;
 }
-
 .quote-carousel-custom.skin-gray {
   background: #f5f5f5 !important;
 }
