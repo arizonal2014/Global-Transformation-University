@@ -397,10 +397,9 @@ input {
     ========================================================================== */
 
 #foot-background {
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
-
-  background-origin: content-box;
+  background: url(../../images/other/footer.png);
 }
 
 footer {
@@ -2132,7 +2131,7 @@ a.remove {
 }
 
 .folio-overlay {
-  background-color: rgba(245, 238, 37, 0.9);
+  background-color: rgba(52, 49, 49, 0.173);
 }
 
 .folio-overlay-inner h5 {
