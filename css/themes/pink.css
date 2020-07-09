@@ -19,6 +19,10 @@ Secondary Color: #9923f1
   object-fit: cover;
 }
 
+.contact-style p {
+  color: #070606;
+}
+
 #custom-black p {
   color: black;
 }
