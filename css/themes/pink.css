@@ -15,8 +15,6 @@ Secondary Color: #9923f1
   background: url(../../images/other/pricing-image.jpg);
   background-size: 1920px  950px;
   background-position: bottom;
-  background-repeat: no-repeat;
-  object-fit: cover;
 }
 
 .contact-style p {
@@ -58,6 +56,10 @@ h5 {
 
 a {
   color: #999;
+}
+
+.about-p {
+  color: black;
 }
 
 a:hover,
