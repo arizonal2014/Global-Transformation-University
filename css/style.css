@@ -41,18 +41,9 @@ Author: Surjith S M
     
     -------------------------------------------------------------------*/
 /* ------- IMPORT GOOGLE FONTS  ------- */
-@import url(
-  https://fonts.googleapis.com/css?family=Lato:100,
-  200,
-  300,
-  400,
-  400italic,
-  500,
-  600,
-  700,
-  700italic,
-  900
-);
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 @import url(https://fonts.googleapis.com/css?family=Oswald:300, 400, 700);
 @import url(
   https://fonts.googleapis.com/css?family=Roboto:100,
