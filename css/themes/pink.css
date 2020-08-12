@@ -405,7 +405,7 @@ input {
     ========================================================================== */
 
 #foot-background {
-  background: url(../../images/gtu-others/footer-bg.png);
+  background: rgba(0, 0, 0, 0.872);
   background-position: center center;
   background-size: cover;
   padding-bottom: 1px;
